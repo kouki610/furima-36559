@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="utCT9Qg4qMf_k_D11RBW" name="ページ1">
-        <mxGraphModel dx="924" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1167" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -24,8 +24,8 @@
                 <mxCell id="QKeyXua6iJYJOqLtw5ug-6" value="Usersテーブル" style="swimlane;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
                     <mxGeometry x="10" y="80" width="180" height="260" as="geometry"/>
                 </mxCell>
-                <mxCell id="QKeyXua6iJYJOqLtw5ug-8" value="&lt;ul style=&quot;font-size: 13px;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;email&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;password&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;encrypted_password&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;nickname&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;first_name&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;last_name&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;first_kananame&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;last_kananame&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;birthday_year_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;birthday_month_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;birthday_day_id&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=13;" vertex="1" parent="QKeyXua6iJYJOqLtw5ug-6">
-                    <mxGeometry y="15" width="160" height="245" as="geometry"/>
+                <mxCell id="QKeyXua6iJYJOqLtw5ug-8" value="&lt;ul style=&quot;font-size: 13px&quot;&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;email&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;encrypted_password&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;nickname&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;first_name&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;last_name&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;first_kananame&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;last_kananame&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=13;" vertex="1" parent="QKeyXua6iJYJOqLtw5ug-6">
+                    <mxGeometry y="15" width="170" height="245" as="geometry"/>
                 </mxCell>
                 <mxCell id="QKeyXua6iJYJOqLtw5ug-28" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;targetPerimeterSpacing=0;strokeColor=#f0f0f0;strokeWidth=2;startArrow=ERone;startFill=0;" edge="1" parent="1">
                     <mxGeometry relative="1" as="geometry">
@@ -37,10 +37,10 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="QKeyXua6iJYJOqLtw5ug-11" value="Itemsテーブル" style="swimlane;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-                    <mxGeometry x="530" y="80" width="170" height="210" as="geometry"/>
+                    <mxGeometry x="530" y="80" width="200" height="230" as="geometry"/>
                 </mxCell>
-                <mxCell id="QKeyXua6iJYJOqLtw5ug-16" value="&lt;ul style=&quot;font-size: 13px;&quot;&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;name&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;explanation&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;category_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;status_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;load_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;area_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;day_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;price&lt;/li&gt;&lt;li style=&quot;font-size: 13px;&quot;&gt;user&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=13;" vertex="1" parent="QKeyXua6iJYJOqLtw5ug-11">
-                    <mxGeometry x="10" y="15" width="160" height="180" as="geometry"/>
+                <mxCell id="QKeyXua6iJYJOqLtw5ug-16" value="&lt;ul style=&quot;font-size: 13px&quot;&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;name&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;explanation&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;category_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;status_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;load_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;area_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;scheduled_delivery_id&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;price&lt;/li&gt;&lt;li style=&quot;font-size: 13px&quot;&gt;user&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=13;" vertex="1" parent="QKeyXua6iJYJOqLtw5ug-11">
+                    <mxGeometry x="5" y="15" width="190" height="205" as="geometry"/>
                 </mxCell>
                 <mxCell id="QKeyXua6iJYJOqLtw5ug-20" value="Ordersテーブル" style="swimlane;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
                     <mxGeometry x="280" y="115" width="180" height="140" as="geometry"/>
