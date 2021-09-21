@@ -29,7 +29,7 @@
 | explanation                       | text       | null: false                    |
 | category_id                       | integer    | null: false                    |
 | status_id                         | integer    | null: false                    |
-| load_id                           | integer    | null: false                    |
+| lord_id                           | integer    | null: false                    |
 | area_id                           | integer    | null: false                    |
 | scheduled_delivery_id             | integer    | null: false                    |
 | price                             | integer    | null: false                    |
