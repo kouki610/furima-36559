@@ -1,6 +1,6 @@
 class ItemsController < ApplicationController
 
-  before_action :authenticate_user!, only: [:new,:create]
+  before_action :authenticate_user!, except: [:index, :show]
   before_action :set_item, only: [:show, :edit, :update]
   before_action :judge_login, only: [:edit, :update]
   before_action :judge_soldout, only: [:edit, :update]
